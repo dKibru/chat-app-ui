@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Transition } from '@tailwindui/react'
 import React, { useEffect, useState, useContext } from "react";
 import { SlackUser, Channel, ChatMessage } from "../types";
+import DropDownElement from "../components/dropdown";
 
 const themes = {
     light: {
@@ -117,6 +118,7 @@ const ChannelInfo: JSX.Element = () => {
                         </div>
                     </div>
                     <div>
+                        
                         <svg onClick={toggleStyle} className="h-6 w-6 fill-current text-white opacity-25" viewBox="0 0 20 20">
                             <path d="M14 8a4 4 0 1 0-8 0v7h8V8zM8.027 2.332A6.003 6.003 0 0 0 4 8v6l-3 2v1h18v-1l-3-2V8a6.003 6.003 0 0 0-4.027-5.668 2 2 0 1 0-3.945 0zM12 18a2 2 0 1 1-4 0h4z" fillRule="evenodd" />
                         </svg>
@@ -244,7 +246,7 @@ const ChatBoxUI: JSX.Element = () => {
                     <div className="flex flex-col">
                         <h3 className="text-grey-darkest mb-1 font-extrabold">#general</h3>
                         <div className="text-grey-dark text-sm truncate">
-                            Chit-chattin' about ugly HTML and mixing of concerns.
+                            Chit-chattin' about ugly HTML and mixing of concernss
                         </div>
                     </div>
                     <div className="ml-auto hidden md:block">
