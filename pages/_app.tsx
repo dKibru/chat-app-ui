@@ -3,7 +3,7 @@ import 'tailwindcss/tailwind.css'
 
 import type { AppProps } from 'next/app'
 
-import { io } from "socket.io-client";
+// import { io } from "socket.io-client";
 
 
 function MyApp({ Component, pageProps }: AppProps) {
