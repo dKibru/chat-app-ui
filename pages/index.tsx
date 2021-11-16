@@ -43,7 +43,7 @@ function AddChannelModal(props : {
     ) 
 }
 
-const ChannelList: JSX.Element = (props : {
+const ChannelList = (props : {
     channels : Channel[],
 }) => {
     const {style, setStyle, activeChannel, setActiveChannel, toggleDetailVisiblity, setDetailVisiblity, modal, setModal} = useContext(ThemeContext);
@@ -85,7 +85,7 @@ const ChannelList: JSX.Element = (props : {
     )
 }
 
-const SingleChatMessage : JSX.Element = (props: ChatMessage) => {
+const SingleChatMessage  = (props: ChatMessage) => {
 
     const {me} = useContext(ThemeContext);
     let cn = "flex items-start mb-4 text-sm "
@@ -105,7 +105,7 @@ const SingleChatMessage : JSX.Element = (props: ChatMessage) => {
     )
 }
 
-const ChannelInfo: JSX.Element = () => {
+const ChannelInfo = () => {
 
     const {style, setStyle, toggleStyle, activeChannel} = useContext(ThemeContext);
     return (
@@ -205,7 +205,7 @@ const initChatB : ChatMessage[] = [
 ]
 
 
-const ChatBoxUI: JSX.Element = () => {
+const ChatBoxUI  = () => {
 
     const channels : Channel[] = [
         { img: "", name: "Room A", slug: "/slack/1", id : "A", messages: initChatA },
