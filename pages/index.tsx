@@ -247,7 +247,7 @@ const ChatBoxUI  = () => {
                     <div className="flex flex-col">
                         <h3 className="text-grey-darkest mb-1 font-extrabold">#general</h3>
                         <div className="text-grey-dark text-sm truncate">
-                            Chit-chattin' about ugly HTML and mixing of concernss
+                            Chit-chattin&apos; about ugly HTML and mixing of concernss
                         </div>
                     </div>
                     <div className="ml-auto hidden md:block">
