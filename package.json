@@ -1,5 +1,5 @@
 {
-  "name": "insacom-ui",
+  "name": "chat-app-ui",
   "private": true,
   "scripts": {
     "dev": "next dev",
