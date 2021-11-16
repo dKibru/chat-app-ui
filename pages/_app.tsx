@@ -8,24 +8,24 @@ import { io } from "socket.io-client";
 
 function MyApp({ Component, pageProps }: AppProps) {
   
-  // const socket = io("http://localhost:3001");
-  const socket = io('http://localhost:3001' , {transports: ['websocket']});
+  // // const socket = io("http://localhost:3001");
+  // const socket = io('http://localhost:3001' , {transports: ['websocket']});
 
-  socket.on("connect", () => {
-    console.log(socket.id); // x8WIv7-mJelg7on_ALbx
-  });
+  // socket.on("connect", () => {
+  //   console.log(socket.id); // x8WIv7-mJelg7on_ALbx
+  // });
   
-  socket.on("disconnect", () => {
-    console.log(socket.id); // undefined
-  });
+  // socket.on("disconnect", () => {
+  //   console.log(socket.id); // undefined
+  // });
 
-  let s = {
-    socket : socket
-  }
+  // let s = {
+  //   socket : socket
+  // }
 
   let props = {
       ...pageProps,
-      ...s
+      // ...s
   };
 
 
