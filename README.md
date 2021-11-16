@@ -1,13 +1,18 @@
 # Chat App UI
 
-A chatt app ui based on [Slack Clone By adamwathan](https://tailwindcomponents.com/component/slack-clone-1). You can view the demo [here](https://tailwindcomponents.com/component/slack-clone-1)
+A chatt app ui based on [Slack Clone By adamwathan](https://tailwindcomponents.com/component/slack-clone-1). You can view the demo [here](https://tailwindcomponents.com/component/slack-clone-1).
 
 
 # Stack
 
-Built with NextJs, tailwind css, react and TypeScript 
+Built with NextJs, tailwind css, vitejs, react and TypeScript.
 
 # Progress
+
+- [x] Basic Structure
+- [ ] Creating new room
+- [ ] Backend integration
+- [ ] Websocket
 
 # Credit
 
