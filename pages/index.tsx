@@ -18,7 +18,9 @@ const ThemeContext = React.createContext(null);
 
 
 
-function AddChannelModal(props) {
+function AddChannelModal(props : {
+  exit: Function
+}) {
     return (
         <div className="modal h-screen w-full fixed left-0 top-0 flex justify-center items-center bg-black bg-opacity-50">
         <div className="p-5 bg-white space-y-5 shadow-xl">

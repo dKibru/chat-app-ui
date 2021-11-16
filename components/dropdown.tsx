@@ -35,7 +35,7 @@ const Dropdown = (props : { color : string }) => {
                 bgColor
               }
               type="button"
-              ref={btnDropdownRef}
+              // ref={btnDropdownRef}
               onClick={() => {
                 dropdownPopoverShow
                   ? closeDropdownPopover()
@@ -45,7 +45,7 @@ const Dropdown = (props : { color : string }) => {
               {props.color === "white" ? "White Dropdown" : props.color + " Dropdown"}
             </button>
             <div
-              ref={popoverDropdownRef}
+              // ref={popoverDropdownRef}
               className={
                 (dropdownPopoverShow ? "block " : "hidden ") +
                 (props.color === "white" ? "bg-white " : bgColor + " ") +
